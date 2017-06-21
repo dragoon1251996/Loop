@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:icon="@mipmap/add"
+        android:title="Add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@mipmap/more"
+        android:title="More"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+
+                android:id="@+id/show_archived"
+                android:checkable="true"
+                android:title="Show archived"
+                app:showAsAction="ifRoom|withText"></item>
+            <item
+                android:checkable="true"
+                android:id="@+id/night_mode"
+                android:title="Night mode"
+                app:showAsAction="always|withText" />
+            <item
+                android:id="@+id/setting"
+                android:title="Settings"
+                app:showAsAction="always|withText" />
+            <item
+                android:id="@+id/about"
+                android:title="About"
+                app:showAsAction="always|withText" />
+
+        </menu>
+    </item>
+
+</menu>

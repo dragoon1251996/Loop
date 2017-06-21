@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:layout_collapseMode="pin"
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="NO"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/txtNameHB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:src="@drawable/repeatden"
+                        android:id="@+id/imgRepeatHB"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Every day"
+                        android:id="@+id/txtRepeatHB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/timertrang"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/txtGioHB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:text=":"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txtPhutHB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:background="@drawable/toolbar_shadow"
+                android:alpha="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:layout_marginLeft="20dp"
+                    android:text="Overview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:padding="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.dinuscxj.progressbar.CircleProgressBar
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:background_color="#0e0e0e"
+                        android:layout_weight="1"
+                        />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:text="50%"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp" />
+                            <TextView
+                                android:text="Score"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:text="50%"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp" />
+                            <TextView
+                                android:text="Month"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:text="50%"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp" />
+                            <TextView
+                                android:text="Year"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:text="50%"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp" />
+                            <TextView
+                                android:text="Total"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:background="@drawable/toolbar_shadow"
+                android:alpha="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <TextView
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="Habit strength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+           <com.github.mikephil.charting.charts.LineChart
+               android:layout_marginBottom="10dp"
+               android:id="@+id/lineChart"
+               android:padding="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="200dp">
+
+           </com.github.mikephil.charting.charts.LineChart>
+            <devs.mulham.horizontalcalendar.HorizontalCalendarView
+                    android:id="@+id/calendarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    app:textColorSelected="#000"
+                    app:textSizeDayName="14sp"
+                    app:textSizeDayNumber="20sp"/>
+            <View
+                android:background="@drawable/toolbar_shadow"
+                android:alpha="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <TextView
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="Frequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.github.mikephil.charting.charts.BubbleChart
+                android:layout_marginBottom="10dp"
+                android:padding="20dp"
+                android:id="@+id/bubbleChart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+            </com.github.mikephil.charting.charts.BubbleChart>
+            <!--<com.db.chart.view.LineChartView-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:background="#48536b"-->
+                <!--android:id="@+id/chart1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--/>-->
+            <!--<com.db.chart.view.HorizontalStackBarChartView-->
+                <!--xmlns:chart="http://schemas.android.com/apk/res-auto"-->
+                <!--android:id="@+id/chart2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="130dp"-->
+                <!--chart:chart_labelColor="#e7e7e7"-->
+                <!--chart:chart_fontSize="10dp"/>-->
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

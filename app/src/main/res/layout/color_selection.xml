@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:padding="20dp">
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:text="Change color"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+     <LinearLayout
+         android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+         <ImageView
+             android:scaleType="center"
+             android:id="@+id/mau1"
+             android:layout_marginRight="13dp"
+             android:layout_weight="1"
+             android:background="@drawable/circle"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+         <ImageView
+             android:scaleType="center"
+             android:id="@+id/mau2"
+             android:layout_marginRight="13dp"
+             android:layout_weight="1"
+             android:background="@drawable/mau2"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+         <ImageView
+             android:scaleType="center"
+             android:id="@+id/mau3"
+             android:layout_marginRight="13dp"
+             android:layout_weight="1"
+             android:background="@drawable/mau3"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+         <ImageView
+             android:scaleType="center"
+             android:id="@+id/mau4"
+             android:layout_weight="1"
+             android:background="@drawable/mau4"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+
+
+     </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau5"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/mau5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau6"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/mau6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau7"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/mau7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau8"
+                android:layout_weight="1"
+                android:background="@drawable/mau8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau9"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/mau9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau10"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/mau10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau11"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/mau11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau12"
+                android:layout_weight="1"
+                android:background="@drawable/mau12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <ImageView
+                android:scaleType="center"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/trang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+
+                android:scaleType="center"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/trang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="center"
+                android:layout_marginRight="13dp"
+                android:layout_weight="1"
+                android:background="@drawable/trang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="center"
+                android:id="@+id/mau13"
+                android:layout_weight="1"
+                android:background="@drawable/mau13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

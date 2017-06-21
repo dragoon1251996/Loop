@@ -1,0 +1,8 @@
+diff a/LoopHabit/app/build.gradle b/LoopHabit/app/build.gradle	(rejected hunks)
+@@ -30,4 +30,6 @@
+     compile 'com.mikhaellopez:circularprogressbar:1.1.1'
+     compile 'com.dinuscxj:circleprogressbar:1.1.1'
+     compile 'com.android.support:design:22.2.0'
++    compile 'com.wdullaer:materialdatetimepicker:3.2.0'
++
+ }

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/layoutitem"
+    android:layout_width="match_parent"
+    android:background="@drawable/boder"
+    android:layout_marginTop="2dp"
+    android:elevation="2dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginLeft="3dp"
+    android:layout_height="50dp">
+
+    <com.dinuscxj.progressbar.CircleProgressBar
+        android:layout_gravity="center_vertical"
+        android:id="@+id/circle_progress"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        app:background_color="#0e0e0e"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:gravity="center_vertical"
+        style="?android:textAppearanceListItem"
+
+        android:id="@+id/txtContent"
+        android:padding="2dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4.5"
+        android:text="di hoc"
+
+        />
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+
+        android:id="@+id/img1"
+        android:padding="2dp"
+        android:src="@mipmap/checked"
+
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_gravity="center_vertical"
+
+        android:id="@+id/img2"
+        android:padding="2dp"
+        android:src="@mipmap/checked"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_gravity="center_vertical"
+
+        android:id="@+id/img3"
+        android:padding="2dp"
+        android:src="@mipmap/checked"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_gravity="center_vertical"
+
+        android:id="@+id/img4"
+        android:padding="2dp"
+        android:src="@mipmap/checked"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

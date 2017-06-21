@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/painColor2"
+        android:icon="@drawable/pain"
+        android:title="Edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/save"
+        android:title="Edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/more2"
+        android:icon="@drawable/more"
+        android:title="More"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/delete2"
+                android:title="Delete"
+                app:showAsAction="always|withText" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LoopHabit</string>
+    <string name="discard">DISCARD</string>
+    <string name="save">SAVE</string>
+    <string name="name">Name</string>
+    <string name="color_picker_default_title">Change color</string>
+    <string name="question">Question(Did you ... today?)</string>
+    <string name="repeat">Repeat</string>
+    <string name="every_day">Every day</string>
+    <string name="every_week">Every week</string>
+    <string name="two_times_per_week">2 times per week</string>
+    <string name="five_times_per_week">5 times per week</string>
+
+    <string name="custom_frequency">Custom …</string>
+    <string name="times_every">times in</string>
+    <string name="days">days</string>
+    <string name="Reminder">Reminder</string>
+    <string name="score">Score</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="total">Total</string>
+</resources>

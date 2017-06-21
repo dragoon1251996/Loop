@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frequencyQuickSelect" translatable="false">
+        <item>@string/every_day</item>
+        <item>@string/every_week</item>
+        <item>@string/two_times_per_week</item>
+        <item>@string/five_times_per_week</item>
+        <item>@string/custom_frequency</item>
+    </string-array>
+</resources>
